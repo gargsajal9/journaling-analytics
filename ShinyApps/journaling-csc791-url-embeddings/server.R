@@ -1,5 +1,5 @@
 # Script to process CSC791 Journaling URL corpus for Shiny
-# PJ 14/8/2015 (built from orginal example by NFS)
+# PJ 19/8/2015 (built from orginal example by NFS)
 
 #install.packages("tm")
 library(tm)
@@ -199,12 +199,18 @@ domains <- rapply(strsplit(url_names,"_"), function(x) head(x, 1))
 # Load in assignment dictionary
 ass = read.csv("tmp-http-url-assignment-dict.csv")
 
-# For each entry in url_names, look up the URL in the ass dictionary. If it exists,
-# append the assignment number to the assignments array. If not, append an empty string.
+# Load in sub-task dictionary
+sub = read.csv("tmp-http-url-subtask-dict.csv")
+
+# For each entry in url_names, look up the URL in the ass and sub dictionaries. If it exists,
+# append assignment or subtask to the appropriate array. If not, append an empty string.
 assignments<-NULL
+subtasks<-NULL
 for (url in url_names) {
   assignment <- ass[grep(url,ass[,1],ignore.case=T),2]
   assignments <- c(assignments,paste(assignment))
+  subtask <- sub[grep(url,sub[,1],ignore.case=T),2]
+  subtasks <- c(subtasks,paste(subtask))
 }
 
 # Server code - gets run whenever a user loads the app or clicks a widget (so minimal computation)
@@ -217,9 +223,14 @@ shinyServer(
         col.rainbow <- rainbow(length(unique(domains)))
         palette(col.rainbow)
       }
-      else { # Color by Assignment
+      else if(input$colors=="2") { # Color by Task (Assignment)
         cols <- as.factor(assignments)
         col.rainbow <- rainbow(length(unique(assignments)))
+        palette(col.rainbow)
+      }
+      else { # Color by Sub-task (Action)
+        cols <- as.factor(subtasks)
+        col.rainbow <- rainbow(length(unique(subtasks)))
         palette(col.rainbow)
       }
       
@@ -240,6 +251,11 @@ shinyServer(
         plot(data, col=cols, pch=16, main="2D embedding of similarity between URLs in Term-Doc Matrix")
         d <- data.frame(data, names=domains)
         text(d[,1],d[,2]-text_offset,labels=assignments,cex=0.6,col="black")
+      }
+      else if(input$labels=="4") { # Label by Subtask
+        plot(data, col=cols, pch=16, main="2D embedding of similarity between URLs in Term-Doc Matrix")
+        d <- data.frame(data, names=domains)
+        text(d[,1],d[,2]-text_offset,labels=subtasks,cex=0.6,col="black")
       }
       else { # No labels
         plot(data, col=cols, pch=16, main="2D embedding of similarity between URLs in Term-Doc Matrix")
