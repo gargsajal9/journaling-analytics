@@ -1,0 +1,7 @@
+http://cran.r-project.org/web/packages/jsonlite/vignettes/json-apis.html
+http://en.wikipedia.org/wiki/Latent_semantic_analysis
+http://stackoverflow.com/questions/13811020/java-class-is-public-should-be-declared-in-a-file-named
+http://www.elastic.co/guide/en/elasticsearch/guide/current/_document_oriented.html
+http://www.w3schools.com/jquery/jquery_examples.asp
+https://www.google.com/search?q=r+builtin+functions&oq=r+builtin+&aqs=chrome.1.69i57j0l5.3438j0j7&sourceid=chrome&es_sm=93&ie=UTF-8
+http://zevross.com/blog/2015/02/12/using-r-to-download-and-parse-json-an-example-using-data-from-an-open-data-portal/
