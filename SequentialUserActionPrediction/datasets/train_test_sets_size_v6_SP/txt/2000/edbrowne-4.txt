@@ -1,0 +1,2101 @@
+2000,100
+X11
+Adobe Reader
+RStudio
+Adobe Reader
+Google Chrome
+Finder
+Emacs
+Finder
+Emacs
+Google Chrome
+Safari
+Google Chrome
+Adobe Reader
+X11
+Adobe Reader
+X11
+Adobe Reader
+X11
+Adobe Reader
+X11
+Adobe Reader
+X11
+RStudio
+X11
+Adobe Reader
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+X11
+RStudio
+X11
+Google Chrome
+Safari
+X11
+Google Chrome
+Adobe Reader
+Google Chrome
+X11
+RStudio
+X11
+Google Chrome
+X11
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+X11
+RStudio
+X11
+RStudio
+X11
+RStudio
+X11
+RStudio
+X11
+RStudio
+X11
+Google Chrome
+Adobe Reader
+X11
+RStudio
+X11
+Adobe Reader
+X11
+RStudio
+X11
+Google Chrome
+X11
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+Adobe Reader
+X11
+Adobe Reader
+RStudio
+X11
+RStudio
+Safari
+X11
+Safari
+RStudio
+Safari
+RStudio
+Safari
+RStudio
+X11
+Safari
+Adobe Reader
+X11
+Adobe Reader
+X11
+Adobe Reader
+Safari
+Google Chrome
+Adobe Reader
+X11
+Google Chrome
+X11
+RStudio
+X11
+Google Chrome
+X11
+Safari
+X11
+RStudio
+Safari
+Google Chrome
+Adobe Reader
+X11
+RStudio
+X11
+RStudio
+Adobe Reader
+RStudio
+Adobe Reader
+Safari
+Adobe Reader
+X11
+Adobe Reader
+X11
+Adobe Reader
+X11
+Adobe Reader
+X11
+Adobe Reader
+X11
+Adobe Reader
+X11
+Adobe Reader
+Google Chrome
+X11
+Adobe Reader
+X11
+Adobe Reader
+X11
+RStudio
+Adobe Reader
+RStudio
+Adobe Reader
+RStudio
+Adobe Reader
+RStudio
+Adobe Reader
+RStudio
+Adobe Reader
+Google Chrome
+Adobe Reader
+Safari
+Adobe Reader
+Safari
+Adobe Reader
+Google Chrome
+Adobe Reader
+Google Chrome
+Adobe Reader
+X11
+Adobe Reader
+X11
+Adobe Reader
+Google Chrome
+Adobe Reader
+Terminal
+Adobe Reader
+X11
+Adobe Reader
+X11
+Adobe Reader
+Google Chrome
+X11
+Adobe Reader
+X11
+Adobe Reader
+X11
+Adobe Reader
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+Terminal
+Google Chrome
+Terminal
+Google Chrome
+Finder
+Adobe Reader
+Safari
+Adobe Reader
+Safari
+Adobe Reader
+Safari
+Adobe Reader
+Finder
+Adobe Reader
+Safari
+Google Chrome
+Adobe Reader
+Safari
+Google Chrome
+Safari
+Google Chrome
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+Adobe Reader
+RStudio
+Safari
+Terminal
+Safari
+Finder
+Safari
+Terminal
+Safari
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+Terminal
+Google Chrome
+Terminal
+Google Chrome
+Terminal
+Safari
+Terminal
+Safari
+Terminal
+Safari
+Terminal
+Safari
+Google Chrome
+RStudio
+Google Chrome
+Adobe Reader
+Safari
+Google Chrome
+Terminal
+Safari
+Terminal
+Safari
+Terminal
+Safari
+Terminal
+Safari
+Terminal
+X11
+Safari
+Safari
+X11
+Terminal
+RStudio
+Safari
+RStudio
+Safari
+RStudio
+Safari
+RStudio
+Safari
+RStudio
+Safari
+RStudio
+Safari
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+Microsoft Word
+Google Chrome
+Microsoft Word
+Google Chrome
+Adobe Reader
+Google Chrome
+RStudio
+Safari
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+Adobe Reader
+Safari
+Google Chrome
+Safari
+Terminal
+Finder
+Adobe Reader
+Finder
+Safari
+RStudio
+Safari
+RStudio
+Safari
+Google Chrome
+Safari
+Adobe Reader
+Safari
+Adobe Reader
+Safari
+Adobe Reader
+Google Chrome
+Adobe Reader
+Google Chrome
+Adobe Reader
+Safari
+Google Chrome
+Safari
+Finder
+Adobe Reader
+Safari
+Adobe Reader
+Safari
+Safari
+Adobe Reader
+Google Chrome
+Safari
+Finder
+Safari
+Terminal
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+RStudio
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+Safari
+RStudio
+Safari
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Safari
+RStudio
+Safari
+Google Chrome
+RStudio
+Microsoft Word
+RStudio
+Microsoft Word
+RStudio
+Microsoft Word
+RStudio
+Safari
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Safari
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+Microsoft Word
+Google Chrome
+Safari
+RStudio
+Safari
+Terminal
+RStudio
+Terminal
+RStudio
+Safari
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Safari
+Microsoft Word
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+Safari
+Adobe Reader
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Safari
+RStudio
+Google Chrome
+RStudio
+Safari
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+Safari
+Safari
+Google Chrome
+Safari
+Terminal
+Safari
+RStudio
+Safari
+Google Chrome
+Safari
+RStudio
+Safari
+Terminal
+Finder
+Google Chrome
+Safari
+RStudio
+Google Chrome
+Safari
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+Safari
+Google Chrome
+RStudio
+Google Chrome
+Safari
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+Terminal
+Google Chrome
+Terminal
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Safari
+RStudio
+Safari
+RStudio
+Safari
+RStudio
+Safari
+RStudio
+Safari
+RStudio
+Safari
+RStudio
+Safari
+Google Chrome
+Safari
+Google Chrome
+RStudio
+Safari
+Google Chrome
+RStudio
+Safari
+RStudio
+Safari
+RStudio
+Safari
+RStudio
+Safari
+RStudio
+Safari
+RStudio
+Safari
+RStudio
+Safari
+Google Chrome
+Safari
+RStudio
+Safari
+RStudio
+Safari
+RStudio
+Terminal
+Safari
+RStudio
+Safari
+RStudio
+Safari
+RStudio
+Safari
+RStudio
+Safari
+RStudio
+Safari
+RStudio
+Safari
+RStudio
+Safari
+Finder
+VLC
+Finder
+Calendar
+Finder
+Terminal
+Safari
+RStudio
+Safari
+RStudio
+Safari
+RStudio
+Safari
+RStudio
+Safari
+RStudio
+Safari
+RStudio
+Safari
+Safari
+RStudio
+Safari
+RStudio
+Safari
+RStudio
+Safari
+RStudio
+Safari
+RStudio
+Safari
+RStudio
+Safari
+RStudio
+Safari
+RStudio
+Terminal
+RStudio
+Safari
+Google Chrome
+RStudio
+Safari
+RStudio
+Safari
+RStudio
+Safari
+RStudio
+Safari
+RStudio
+Safari
+RStudio
+Safari
+Google Chrome
+Safari
+RStudio
+Safari
+RStudio
+Google Chrome
+Safari
+RStudio
+Adobe Reader
+RStudio
+Safari
+RStudio
+Safari
+RStudio
+Safari
+RStudio
+Safari
+RStudio
+Safari
+RStudio
+Safari
+Safari
+Google Chrome
+Safari
+RStudio
+Google Chrome
+Safari
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Safari
+Google Chrome
+Safari
+RStudio
+Google Chrome
+RStudio
+Safari
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Terminal
+RStudio
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+Safari
+Finder
+Adobe Reader
+Safari
+Finder
+Safari
+Safari
+Finder
+Adobe Reader
+Safari
+Adobe Reader
+Safari
+Safari
+Google Chrome
+Safari
+Google Chrome
+Safari
+Adobe Reader
+Safari
+Adobe Reader
+Safari
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+Safari
+Terminal
+Safari
+Adobe Reader
+Safari
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+Terminal
+Finder
+Safari
+Finder
+eclipse
+Safari
+Eclipse
+Google Chrome
+Eclipse
+Safari
+Google Chrome
+Safari
+Google Chrome
+Finder
+Terminal
+RStudio
+Safari
+RStudio
+Safari
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+Safari
+RStudio
+Safari
+Google Chrome
+Safari
+RStudio
+Safari
+RStudio
+Safari
+RStudio
+Safari
+RStudio
+Safari
+Terminal
+RStudio
+Safari
+RStudio
+Safari
+RStudio
+Safari
+RStudio
+Safari
+Google Chrome
+Safari
+Safari
+Finder
+Safari
+Google Chrome
+RStudio
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+RStudio
+Adobe Reader
+Emacs
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+Safari
+Google Chrome
+Safari
+RStudio
+Emacs
+RStudio
+Emacs
+RStudio
+Emacs
+RStudio
+Google Chrome
+Emacs
+Google Chrome
+RStudio
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+Emacs
+Terminal
+Safari
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Safari
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+Terminal
+RStudio
+Terminal
+Google Chrome
+Terminal
+RStudio
+Safari
+RStudio
+Safari
+RStudio
+Safari
+RStudio
+Safari
+Terminal
+RStudio
+Safari
+RStudio
+Safari
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+RStudio
+Safari
+RStudio
+Safari
+RStudio
+Safari
+Emacs
+Safari
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+Safari
+Google Chrome
+RStudio
+Safari
+Terminal
+Safari
+Terminal
+Safari
+Terminal
+Safari
+Google Chrome
+Safari
+Terminal
+Safari
+Terminal
+Safari
+Google Chrome
+Safari
+Terminal
+Safari
+Terminal
+Safari
+Finder
+Safari
+Finder
+Safari
+Finder
+Safari
+Terminal
+Google Chrome
+Terminal
+Google Chrome
+Terminal
+Google Chrome
+Terminal
+Google Chrome
+Terminal
+Google Chrome
+Terminal
+Finder
+Google Chrome
+Safari
+Terminal
+Google Chrome
+Finder
+Terminal
+Finder
+Terminal
+Google Chrome
+Safari
+Terminal
+Safari
+Terminal
+Safari
+Terminal
+Safari
+Google Chrome
+Safari
+Safari
+Terminal
+Google Chrome
+Safari
+Terminal
+Safari
+Terminal
+Safari
+Terminal
+Safari
+Terminal
+Safari
+Terminal
+Google Chrome
+Safari
+Terminal
+Google Chrome
+Terminal
+Google Chrome
+Terminal
+Google Chrome
+Terminal
+Google Chrome
+Terminal
+Google Chrome
+Terminal
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+Microsoft Word
+Safari
+Microsoft Word
+Terminal
+Terminal
+Finder
+Safari
+Google Chrome
+Google Chrome
+Google Chrome
+Safari
+Safari
+Google Chrome
+Safari
+Messages
+Messages
+Safari
+Google Chrome
+Safari
+Terminal
+Adobe Reader
+Terminal
+Safari
+Microsoft Word
+Safari
+Google Chrome
+Safari
+Finder
+Adium
+Adium
+Terminal
+Adium
+Google Chrome
+Google Chrome
+Safari
+Finder
+Safari
+Finder
+Safari
+Finder
+Safari
+Terminal
+Finder
+Terminal
+Finder
+Terminal
+Safari
+Finder
+Google Chrome
+Safari
+Finder
+DiskImages UI Agent
+Finder
+TeamSpeak 3
+Google Chrome
+TeamSpeak 3
+Finder
+Terminal
+TeamSpeak 3
+System Preferences
+TeamSpeak 3
+Terminal
+TeamSpeak 3
+Terminal
+TeamSpeak 3
+Adium
+TeamSpeak 3
+Terminal
+Safari
+TeamSpeak 3
+Safari
+Safari
+TeamSpeak 3
+Terminal
+TeamSpeak 3
+Terminal
+TeamSpeak 3
+Terminal
+Safari
+TeamSpeak 3
+Safari
+Terminal
+Finder
+Terminal
+Terminal
+Terminal
+Eclipse
+Terminal
+RStudio
+Terminal
+Adobe Reader
+Terminal
+Google Chrome
+Terminal
+Microsoft Excel
+Terminal
+Finder
+Google Drive
+Terminal
+Microsoft Word
+Microsoft PowerPoint
+Microsoft Word
+Finder
+TeamSpeak 3
+TeamSpeak 3
+Google Chrome
+Google Chrome
+Terminal
+TeamSpeak 3
+Finder
+TeamSpeak 3
+Google Chrome
+Finder
+Google Chrome
+Safari
+Safari
+Terminal
+Safari
+Terminal
+Safari
+Terminal
+Safari
+Terminal
+Finder
+Safari
+Finder
+Terminal
+Safari
+Terminal
+Safari
+Terminal
+Google Chrome
+Safari
+Google Chrome
+Safari
+Safari
+Google Chrome
+Safari
+Finder
+Finder
+Safari
+Finder
+Safari
+Finder
+Safari
+Finder
+Safari
+Google Chrome
+Safari
+Finder
+Terminal
+Finder
+OSXInstrumenter
+Terminal
+Safari
+Finder
+Safari
+Finder
+Safari
+Safari
+Google Chrome
+Safari
+Google Chrome
+Safari
+Finder
+Safari
+Finder
+LyX
+Finder
+Safari
+Google Chrome
+Safari
+Safari
+Google Chrome
+Safari
+Google Chrome
+Finder
+TeXworks
+Finder
+TeXworks
+Safari
+Google Chrome
+Finder
+Terminal
+Finder
+TeXworks
+Terminal
+Finder
+Adobe Reader
+Google Chrome
+Safari
+Google Chrome
+Safari
+Terminal
+Safari
+Google Chrome
+Safari
+Finder
+Safari
+Finder
+Microsoft Word
+Safari
+Microsoft Word
+Terminal
+Terminal
+TeamSpeak 3
+Terminal
+Microsoft Word
+Terminal
+TeamSpeak 3
+TeamSpeak 3
+Terminal
+Terminal
+Safari
+Google Chrome
+Microsoft Word
+Microsoft Word
+Google Chrome
+Google Chrome
+Finder
+Safari
+Safari
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+Finder
+Google Chrome
+RStudio
+Google Chrome
+RStudio
+X11
+Google Chrome
+Adobe Reader
+Microsoft Word
+Google Chrome
+Safari
+Finder
+Adobe Reader
+Microsoft Word
+Adobe Reader
+Finder
+Adobe Reader
+Finder
+Adobe Reader
+Microsoft Word
+Google Chrome
+Adobe Reader
+Finder
+Adobe Reader
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+Safari
+X11
+Safari
+Finder
+Safari
+Google Chrome
+X11
+Google Chrome
+Microsoft Word
+Google Chrome
+X11
+Google Chrome
+X11
+Microsoft Word
+X11
+Google Chrome
+X11
+RStudio
+X11
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+Safari
+Microsoft Word
+Safari
+Microsoft Word
+Safari
+Microsoft Word
+Safari
+RStudio
+X11
+Safari
+X11
+Safari
+RStudio
+Safari
+RStudio
+Safari
+Microsoft Word
+Google Chrome
+Microsoft Word
+Safari
+Microsoft Word
+Safari
+Microsoft Word
+Safari
+Microsoft Word
+Safari
+RStudio
+Safari
+RStudio
+Safari
+RStudio
+Safari
+RStudio
+Safari
+RStudio
+Safari
+Microsoft Word
+Finder
+Terminal
+RStudio
+Microsoft Word
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+Safari
+Google Chrome
+RStudio
+Google Chrome
+Safari
+RStudio
+Google Chrome
+RStudio
+Google Chrome
+Safari
+Terminal
+Safari
+Finder
+Google Chrome
+Finder
+Google Chrome
+Finder
+Safari
+Microsoft Word
+X11
+TeamSpeak 3
+Safari
+Google Chrome
+Safari
+Finder
+Safari
+Finder
+Google Chrome
+Finder
+Safari
+Finder
+Safari
+Xcode
+Xcode
+Xcode
+Terminal
+Safari
+Terminal
+Safari
+Terminal
+Safari
+Terminal
+Safari
+Terminal
+Safari
+Terminal
+Google Chrome
+Terminal
+Safari
+Terminal
+Safari
+Terminal
+Safari
+Terminal
+Safari
+Terminal
+Safari
+Terminal
+Safari
+Terminal
+Safari
+Terminal
+Safari
+Terminal
+Safari
+Terminal
+Safari
+Terminal
+Safari
+Terminal
+Google Chrome
+Terminal
+Google Chrome
+Terminal
+Google Chrome
+Finder
+Xcode
+Google Chrome
+Safari
+Terminal
+Safari
+Terminal
+Safari
+Google Chrome
+Terminal
+Google Chrome
+Terminal
+Google Chrome
+Terminal
+Google Chrome
+Terminal
+Google Chrome
+Safari
+Safari
+Google Chrome
+Terminal
+Google Chrome
+Terminal
+Google Chrome
+Terminal
+Google Chrome
+Terminal
+Google Chrome
+Safari
+Google Chrome
+Terminal
+Google Chrome
+Safari
+Google Chrome
+Safari
+Terminal
+Google Chrome
+Safari
+Terminal
+Safari
+Terminal
+Safari
+Google Chrome
+Terminal
+Google Chrome
+Terminal
+Google Chrome
+Safari
+Google Chrome
+Safari
+Terminal
+Safari
+Terminal
+Google Chrome
+Terminal
+Google Chrome
+Terminal
+Google Chrome
+Terminal
+Google Chrome
+Terminal
+Google Chrome
+Terminal
+Google Chrome
+Terminal
+Google Chrome
+Terminal
+Google Chrome
+Safari
+Terminal
+Safari
+Terminal
+Safari
+Terminal
+Safari
+Finder
+Terminal
+Finder
+Terminal
+Google Chrome
+Safari
+Terminal
+Safari
+Terminal
+Google Chrome
+Safari
+Terminal
+Safari
+Terminal
+Google Chrome
+Terminal
+Google Chrome
+Terminal
+Google Chrome
+Terminal
+Google Chrome
+Terminal
+Google Chrome
+Terminal
+Safari
+Terminal
+Safari
+Terminal
+Safari
+Terminal
+Safari
+Terminal
+Safari
+Terminal
+Safari
+Terminal
+Safari
+Terminal
+Safari
+Terminal
+Safari
+Terminal
+Safari
+Terminal
+Safari
+Terminal
+Safari
+Terminal
+Safari
+Finder
+Google Chrome
+Safari
+Finder
+Safari
+Finder
+Finder
+Safari
+Finder
+Finder
+GGobi
+X11
+GGobi
+Finder
+Safari
+Google Chrome
+Safari
+Google Chrome
+Terminal
+TeamSpeak 3
+TeamSpeak 3
+Google Chrome
+Safari
+Safari
+Google Chrome
+Safari
+Google Chrome
+Safari
+Google Chrome
+Safari
+Safari
+Google Chrome
+Safari
+Safari
+Google Chrome
+Safari
+Safari
+Google Chrome
+Safari
+Safari
+Finder
+Firefox
+Google Chrome
+Firefox
+Firefox
+Google Chrome
+Firefox
+Google Chrome
+Firefox
+Firefox
+Finder
+Firefox
+Terminal
+Terminal
+Google Chrome
+Google Chrome
+Safari
+Firefox
+Firefox
+Safari
+Terminal
+Finder
+Terminal
+Terminal
+TeamSpeak 3
+Firefox
+TeamSpeak 3
+Firefox
+Safari
+Firefox
+Safari
+Google Chrome
+Safari
+Google Chrome
+Firefox
+Google Chrome
+Firefox
+Google Chrome
+Safari
+Terminal
+Safari
+Terminal
+Safari
+Terminal
+Safari
+Terminal
+Remote Desktop Connection
+Terminal
+Safari
+Terminal
+Terminal
+Google Chrome
+Firefox
+Safari
+Google Chrome
+Firefox
+Safari
+Terminal
+Terminal
+Safari
+Google Chrome
+Google Chrome
+Terminal
+Firefox
+Terminal
+Firefox
+Firefox
+Google Chrome
+Safari
+Google Chrome
+Firefox
+Terminal
+Firefox
+Google Chrome
+Terminal
+Firefox
+Terminal
+Firefox
+Terminal
+Firefox
+Google Chrome
+KeyBlaze
+Google Chrome
+Firefox
+Terminal
+Terminal
+Google Chrome
+Terminal
+Google Chrome
+Firefox
+Terminal
+Firefox
+Terminal
+Firefox
+Terminal
+App Store
+Terminal
+Firefox
+Terminal
+Firefox
+Safari
+Google Chrome
+Safari
+Terminal
+Safari
+Terminal
+Google Chrome
+Terminal
+Google Chrome
+Safari
+Terminal
+Safari
+Firefox
+Terminal
+Firefox
+Safari
+Terminal
+Firefox
+Safari
+Firefox
+Terminal
+Microsoft Word
+Terminal
+Microsoft Word
+Google Chrome
+Terminal
+Firefox
+Terminal
+Firefox
+Terminal
+Firefox
+Terminal
+Firefox
+Terminal
+Firefox
+Terminal
+Firefox
+Terminal
+Firefox
+Terminal
+Safari
+Terminal
+Safari
+Firefox
+Terminal
+Firefox
+Terminal
+Google Chrome
+Firefox
+Terminal
+Firefox
+Terminal
+Firefox
+Terminal
+Finder
+Terminal
+Finder
+Terminal
+Finder
+Terminal
+Finder
+Terminal
+Google Chrome
+Firefox
+Safari
+Safari
+Safari
+Google Chrome
+Safari
+Firefox
+Safari
+Firefox
+Safari
+Firefox
+Safari
+Google Chrome
+Firefox
+Terminal
+Firefox
+Terminal
+Firefox
+Google Chrome
+Firefox
+Terminal
+Firefox
+Terminal
+Firefox
+Terminal
+Google Chrome
+Firefox
+Terminal
+Microsoft Word
+Terminal
+Microsoft Word
+Terminal
+Firefox
+Terminal
+Firefox
+Terminal
+Firefox
+Google Chrome
+Firefox
+Terminal
+Firefox
+Terminal
+Firefox
+Terminal
+Firefox
+Terminal
+Firefox
+Terminal
+Firefox
+Terminal
+Google Chrome
+Firefox
+Safari
+Terminal
+Firefox
+Terminal
+Firefox
+Terminal
+Firefox
+Terminal
+Firefox
+Terminal
+Firefox
+Terminal
+Firefox
+Terminal
+Firefox
+Google Chrome
+Terminal
+Firefox
+Google Chrome
+Firefox
+Safari
+Firefox
+Safari
+Firefox
+Safari
+Firefox
+Safari
+Firefox
+Safari
+Firefox
+Google Chrome
+Firefox
+Firefox
+Google Chrome
+Firefox
+Google Chrome
+Firefox
+Google Chrome
+Firefox
+Google Chrome
+Google Chrome
+Firefox
+Finder
+Adobe Reader
+Google Chrome
+Firefox
+Safari
+Adobe Reader
+Google Chrome
+Finder
+Google Chrome
+Firefox
+Google Chrome
+Firefox
+Google Chrome
+Firefox
+Google Chrome
+Firefox
+Google Chrome
+Firefox
+Google Chrome
+Firefox
+Google Chrome
+Firefox
+Firefox
+Firefox
+Safari
+Firefox
+Google Chrome
+Firefox
+Google Chrome
+Firefox
+Google Chrome
+Firefox
+Google Chrome
+Firefox
+KeyBlaze
+Firefox
+Finder
+Archive Utility
+Finder
+KeyBlaze
+Finder
+Firefox
+Google Chrome
+Firefox
+Google Chrome
+Firefox
+Google Chrome
+Firefox
+Google Chrome
+Firefox
+Google Chrome
+Firefox
+Google Chrome
+Firefox
+Firefox
+Google Chrome
+Firefox
+Google Chrome
+Terminal
+Google Chrome
+Firefox
+Google Chrome
+Firefox
+Google Chrome
+Firefox
+Google Chrome
+Firefox
+Google Chrome
+Firefox
+Google Chrome
+Firefox
+Google Chrome
+Firefox
+Firefox
+Firefox
+Google Chrome
+Firefox
+Terminal
+Firefox
+Terminal
+Firefox
+Firefox
+Google Chrome
+Firefox
+Terminal
+Firefox
+Google Chrome
+Firefox
+Firefox
+Google Chrome
+Firefox
+Terminal
+Finder
+Microsoft Word
+Firefox
+Google Chrome
+Microsoft Word
+Google Chrome
+Firefox
+Microsoft Word
+Firefox
+Microsoft Word
+Firefox
+Firefox
+Google Chrome
+Firefox
+Microsoft Word
+Google Chrome
+Microsoft Word
+Firefox
+Microsoft Word
+Google Chrome
+Microsoft Word
+Google Chrome
+Google Chrome
+Microsoft Word
+Google Chrome
+Microsoft Word
+Google Chrome
+Microsoft Word
+Google Chrome
+Microsoft Word
+Google Chrome
+Microsoft Word
+Google Chrome
+Microsoft Word
+Google Chrome
+Microsoft Word
+Google Chrome
+Microsoft Word
+Google Chrome
+Microsoft Word
+Google Chrome
+Microsoft Word
+Google Chrome
+Microsoft Word
+Google Chrome
+Microsoft Word
+Google Chrome
+Microsoft Word
+Google Chrome
+Microsoft Word
+Microsoft Word
+Google Chrome
+Firefox
+Microsoft Word
+Google Chrome
+Microsoft Word
+Google Chrome
+Microsoft Word
+Google Chrome
+Microsoft Word
+Google Chrome
+Microsoft Word
+Google Chrome
+Microsoft Word
+Google Chrome
+Microsoft Word
+Google Chrome
+Microsoft Word
+Google Chrome
+Microsoft Word
+Google Chrome
+Microsoft Word
+Google Chrome
+Microsoft Word
+Firefox
+Finder
+Microsoft Word
+Google Chrome
+Firefox
+Microsoft Word
+Google Chrome
+Microsoft Word
+Google Chrome
+Microsoft Word
+Google Chrome
+Microsoft Word
+Google Chrome
+Microsoft Word
+Google Chrome
+Microsoft Word
+Google Chrome
+Microsoft Word
+System Preferences
+Microsoft Word
+System Preferences
+Microsoft Word
+Google Chrome
+Firefox
+TextEdit
+Firefox
+Google Chrome
+Microsoft Word
+Google Chrome
+Microsoft Word
+Google Chrome
+Firefox
+Microsoft Word
+Google Chrome
+Firefox
+Google Chrome
+Microsoft Word
+Google Chrome
+Firefox
+Microsoft Word
+Firefox
+Microsoft Word
+Firefox
+Microsoft Word
+Firefox
+Google Chrome
+Microsoft Word
+Google Chrome
+Microsoft Word
+Firefox
+Google Chrome
+Microsoft Word
+Google Chrome
+Finder
+Firefox
+Terminal
+Microsoft Word
+Firefox
+Google Chrome
+Firefox
+Terminal
+Finder
+Adobe Reader
+Terminal
+Finder
+Adobe Reader
+Google Chrome
+Finder
+Google Chrome
+Firefox
+Google Chrome
+Adobe Reader

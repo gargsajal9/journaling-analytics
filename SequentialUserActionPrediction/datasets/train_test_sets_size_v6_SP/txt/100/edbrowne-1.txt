@@ -1,0 +1,201 @@
+100,100
+Firefox
+Google Chrome
+Firefox
+Google Chrome
+Firefox
+Google Chrome
+Firefox
+Finder
+Google Chrome
+Terminal
+Google Chrome
+Terminal
+Finder
+Microsoft PowerPoint
+Finder
+Microsoft PowerPoint
+Google Chrome
+Microsoft PowerPoint
+Google Chrome
+Microsoft PowerPoint
+Google Chrome
+Microsoft PowerPoint
+Google Chrome
+Microsoft PowerPoint
+Google Chrome
+Microsoft PowerPoint
+Google Chrome
+Microsoft PowerPoint
+Google Chrome
+Google Chrome
+Finder
+Firefox
+Google Chrome
+Firefox
+Adobe Reader
+Firefox
+Google Chrome
+Firefox
+Firefox
+Google Chrome
+Firefox
+TeamViewer
+Firefox
+TeamViewer
+Firefox
+Google Chrome
+Firefox
+Google Chrome
+TeamViewer
+Firefox
+Google Chrome
+Firefox
+Google Chrome
+TeamViewer
+Firefox
+TeamViewer
+Firefox
+Google Chrome
+Terminal
+TeamViewer
+Terminal
+TeamViewer
+Terminal
+Firefox
+Terminal
+Firefox
+Terminal
+Firefox
+Terminal
+TeamViewer
+Terminal
+Google Chrome
+Terminal
+TeamViewer
+Google Chrome
+Terminal
+Google Chrome
+Terminal
+TeamViewer
+Google Chrome
+Firefox
+Google Chrome
+Terminal
+Google Chrome
+TeamViewer
+Firefox
+TeamViewer
+Firefox
+Terminal
+Google Chrome
+Firefox
+TeamViewer
+Firefox
+Google Chrome
+TeamViewer
+Firefox
+TeamViewer
+Terminal
+TeamViewer
+Google Chrome
+Firefox
+Google Chrome
+Firefox
+Google Chrome
+Microsoft Word
+Google Chrome
+OpenOffice
+Terminal
+TeamViewer
+OpenOffice
+TeamViewer
+Terminal
+Terminal
+Google Chrome
+Firefox
+TeamViewer
+Firefox
+Google Chrome
+Firefox
+TeamViewer
+Firefox
+TeamViewer
+Firefox
+TeamViewer
+Firefox
+Google Chrome
+Firefox
+Google Chrome
+Google Chrome
+Firefox
+Firefox
+Google Chrome
+Google Chrome
+Finder
+Finder
+Google Chrome
+Google Chrome
+Google Chrome
+Firefox
+Terminal
+Terminal
+Terminal
+Google Chrome
+Terminal
+Google Chrome
+Terminal
+Terminal
+Terminal
+Google Chrome
+Terminal
+Google Chrome
+Terminal
+Google Chrome
+Terminal
+Google Chrome
+Terminal
+Google Chrome
+Terminal
+Google Chrome
+Terminal
+Google Chrome
+Finder
+TeXworks
+Terminal
+Microsoft PowerPoint
+Terminal
+Finder
+Terminal
+Terminal
+Terminal
+Terminal
+Firefox
+Google Chrome
+Firefox
+Google Chrome
+Firefox
+Google Chrome
+Firefox
+Google Chrome
+Terminal
+Google Chrome
+Terminal
+Google Chrome
+Finder
+Microsoft PowerPoint
+Firefox
+Microsoft PowerPoint
+Google Chrome
+Firefox
+Google Chrome
+Microsoft PowerPoint
+Finder
+Adobe Reader
+Google Chrome
+Terminal
+Google Chrome
+Terminal
+Finder
+Adobe Reader
+Google Chrome

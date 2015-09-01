@@ -1,0 +1,601 @@
+500,100
+Finder
+Safari
+Safari
+Preview
+Safari
+Finder
+Mendeley Desktop
+Finder
+Safari
+Finder
+Safari
+Finder
+Safari
+Mendeley Desktop
+Safari
+Mendeley Desktop
+Finder
+Mendeley Desktop
+Safari
+Mendeley Desktop
+Finder
+Safari
+Safari
+Finder
+Safari
+Google Drive
+Safari
+Finder
+Safari
+Terminal
+Safari
+Mendeley Desktop
+Safari
+Mendeley Desktop
+Safari
+Safari
+Safari
+Wireless Network Utility
+Safari
+Mendeley Desktop
+Wireless Network Utility
+Mendeley Desktop
+Finder
+Safari
+Finder
+Safari
+Finder
+Safari
+Finder
+Safari
+Finder
+Safari
+Finder
+Safari
+Mendeley Desktop
+Safari
+Mendeley Desktop
+Safari
+Mendeley Desktop
+Safari
+Mendeley Desktop
+Safari
+Mendeley Desktop
+Safari
+Mendeley Desktop
+Safari
+Mendeley Desktop
+Safari
+Mendeley Desktop
+Safari
+Mendeley Desktop
+Safari
+Mendeley Desktop
+Safari
+Mendeley Desktop
+Safari
+Mendeley Desktop
+Safari
+Mendeley Desktop
+Safari
+Mendeley Desktop
+Safari
+Finder
+Safari
+Finder
+Safari
+Finder
+Safari
+Finder
+Safari
+Finder
+Safari
+Mendeley Desktop
+Safari
+Mendeley Desktop
+Safari
+Mendeley Desktop
+Safari
+Google Drive
+Safari
+Mendeley Desktop
+Safari
+Mendeley Desktop
+Safari
+Mendeley Desktop
+Safari
+Mendeley Desktop
+Safari
+Mendeley Desktop
+Safari
+Google Drive
+Safari
+Mendeley Desktop
+Safari
+Mendeley Desktop
+Safari
+Mendeley Desktop
+Safari
+Safari
+Mendeley Desktop
+Safari
+Finder
+Safari
+Mendeley Desktop
+Safari
+Safari
+Mendeley Desktop
+Safari
+Preview
+Safari
+Preview
+Safari
+Preview
+Safari
+XMind
+Safari
+XMind
+Safari
+XMind
+Safari
+XMind
+Safari
+XMind
+Safari
+XMind
+Safari
+XMind
+Preview
+XMind
+Google Drive
+Safari
+Finder
+Preview
+Preview
+Safari
+Google Drive
+Safari
+Preview
+Safari
+Preview
+Safari
+Preview
+Safari
+Preview
+Safari
+Preview
+Safari
+Preview
+Safari
+Preview
+Safari
+Google Drive
+Safari
+Preview
+Preview
+Preview
+Safari
+Preview
+Safari
+Wireless Network Utility
+Safari
+Wireless Network Utility
+Safari
+Wireless Network Utility
+Safari
+Wireless Network Utility
+Safari
+Archive Utility
+Safari
+Finder
+Safari
+Finder
+TextEdit
+Finder
+Safari
+Finder
+Safari
+Finder
+Safari
+Finder
+TextEdit
+Finder
+TextEdit
+Safari
+TextEdit
+Safari
+TextEdit
+Safari
+TextEdit
+Safari
+TextEdit
+Safari
+TextEdit
+Safari
+TextEdit
+Safari
+TextEdit
+Safari
+Preview
+Safari
+Google Drive
+Safari
+Mendeley Desktop
+Finder
+Finder
+Preview
+Finder
+Mendeley Desktop
+Safari
+Preview
+Google Drive
+Safari
+Preview
+Safari
+Google Drive
+Safari
+Preview
+Safari
+Preview
+Safari
+Preview
+Safari
+Google Drive
+Safari
+Safari
+Preview
+Safari
+Safari
+Wireless Network Utility
+Safari
+Google Drive
+Wireless Network Utility
+Safari
+System Preferences
+Safari
+System Preferences
+Safari
+System Preferences
+Safari
+System Preferences
+Safari
+Wireless Network Utility
+Safari
+Wireless Network Utility
+Safari
+Wireless Network Utility
+Safari
+Wireless Network Utility
+Safari
+Wireless Network Utility
+Safari
+Wireless Network Utility
+Safari
+Wireless Network Utility
+Safari
+Wireless Network Utility
+Safari
+Wireless Network Utility
+Safari
+Wireless Network Utility
+Safari
+Wireless Network Utility
+Safari
+Wireless Network Utility
+Safari
+Wireless Network Utility
+Safari
+Wireless Network Utility
+Safari
+Wireless Network Utility
+Safari
+Google Drive
+Safari
+Wireless Network Utility
+Safari
+Wireless Network Utility
+Safari
+Wireless Network Utility
+Safari
+Wireless Network Utility
+Safari
+Wireless Network Utility
+Safari
+Wireless Network Utility
+Safari
+Wireless Network Utility
+Safari
+Wireless Network Utility
+Safari
+Wireless Network Utility
+Safari
+Wireless Network Utility
+Safari
+Wireless Network Utility
+Safari
+Wireless Network Utility
+Safari
+Wireless Network Utility
+Safari
+Wireless Network Utility
+Safari
+Wireless Network Utility
+Safari
+Google Drive
+Safari
+Finder
+iTunes
+Finder
+iTunes
+Safari
+iTunes
+Safari
+iTunes
+Safari
+Google Drive
+Safari
+iTunes
+Safari
+iTunes
+Safari
+iTunes
+Safari
+iTunes
+Safari
+iTunes
+Safari
+Google Drive
+Safari
+Google Drive
+Safari
+Wireless Network Utility
+Safari
+Wireless Network Utility
+Safari
+Wireless Network Utility
+Safari
+Google Drive
+Safari
+Wireless Network Utility
+Safari
+iTunes
+Safari
+iTunes
+Safari
+Google Drive
+Safari
+iTunes
+Safari
+iTunes
+Safari
+iTunes
+Safari
+Safari
+Google Drive
+Safari
+Wireless Network Utility
+Safari
+Safari
+Wireless Network Utility
+Safari
+Google Drive
+Safari
+Safari
+Preview
+Safari
+Mendeley Desktop
+Safari
+Safari
+Mendeley Desktop
+Safari
+Mendeley Desktop
+Safari
+Mendeley Desktop
+Safari
+Mendeley Desktop
+Google Drive
+Mendeley Desktop
+Safari
+Mendeley Desktop
+Safari
+Mendeley Desktop
+Safari
+Mendeley Desktop
+Safari
+Mendeley Desktop
+Safari
+Wireless Network Utility
+Mendeley Desktop
+Safari
+Mendeley Desktop
+Wireless Network Utility
+Safari
+Safari
+Wireless Network Utility
+Safari
+Safari
+Safari
+Google Drive
+Safari
+Firefox
+Safari
+Firefox
+Safari
+Safari
+Finder
+Safari
+Finder
+Safari
+Finder
+Safari
+Google Drive
+Safari
+Finder
+Safari
+Finder
+Safari
+Finder
+Safari
+Mendeley Desktop
+Safari
+Mendeley Desktop
+Safari
+Google Drive
+Safari
+Mendeley Desktop
+Safari
+Mendeley Desktop
+Safari
+Mendeley Desktop
+Safari
+Finder
+Safari
+Finder
+Safari
+Finder
+Safari
+Finder
+Safari
+Finder
+Safari
+Finder
+Safari
+Finder
+Safari
+Finder
+Safari
+Finder
+Safari
+Finder
+Safari
+Google Drive
+Safari
+Preview
+Safari
+Preview
+Safari
+Google Drive
+Safari
+Preview
+Safari
+Preview
+Safari
+Preview
+Safari
+Preview
+Safari
+Preview
+Safari
+Preview
+Safari
+Preview
+Safari
+Preview
+Safari
+Wireless Network Utility
+Safari
+Wireless Network Utility
+Safari
+Wireless Network Utility
+Preview
+Safari
+Google Drive
+Safari
+Safari
+Finder
+Graphviz
+TextEdit
+Finder
+TextEdit
+Finder
+Preview
+Graphviz
+Preview
+Graphviz
+TextEdit
+Graphviz
+Graphviz
+Firefox
+Google Drive
+Firefox
+VMware Fusion
+Firefox
+VMware Fusion
+Firefox
+Safari
+Firefox
+Safari
+Google Drive
+Safari
+Preview
+Safari
+Safari
+Safari
+Finder
+TextEdit
+Safari
+Google Drive
+Safari
+Finder
+Safari
+Finder
+Safari
+Finder
+Safari
+Mendeley Desktop
+Google Drive
+Mendeley Desktop
+Safari
+Mendeley Desktop
+Safari
+Mendeley Desktop
+Safari
+Mendeley Desktop
+Safari
+Mendeley Desktop
+Google Drive
+Mendeley Desktop
+Safari
+Mendeley Desktop
+Safari
+Mendeley Desktop
+Safari
+Mendeley Desktop
+Safari
+Mendeley Desktop
+Safari
+Safari
+Google Drive
+Safari
+Mendeley Desktop
+Safari
+Mendeley Desktop
+Safari
+Mendeley Desktop
+Safari
+Mendeley Desktop
+Safari
+Mendeley Desktop
+Safari
+Finder
+Safari
+Finder
+Safari
+Finder
+Safari
+Mendeley Desktop
+Safari
+Google Drive
+Safari
+Mendeley Desktop
+Safari
+Finder
+Unity
+Safari
+Unity
+Safari
+Unity
+Google Drive
+Safari
+Wireless Network Utility
