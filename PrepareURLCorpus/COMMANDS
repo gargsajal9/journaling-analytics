@@ -1,0 +1,15 @@
+# To count number of files in directory with size>minsize
+minsize=200; pass=0; for file in `ls`; do filesize=$(wc -c <${file}); if [ $filesize -ge $minsize ]; then pass=$((pass+1)); fi; done; echo $pass
+
+# Create assignment and URL dictionaries
+cat tmp-all-sorted-cleaned-csc791.csv | grep http | cut -f3 | cut -d'_' -f3 | sed -e 's/CSC791AdvAlg//' | sed -e 's/Lecture/LE/' > tmp-http-only-assignment.csv
+cat tmp-all-sorted-cleaned-csc791.csv | grep http | cut -f3 | sed -e 's/pjones_//' | sed -e 's/sthakur3_//' | cut -d'_' -f4 | sed -e 's/CSC791AdvAlg//' | sed -e 's/Review$/Reviewing/' | sed -e 's/Implement$/Implementing/' | sed -e 's/Papers/Surveying/' | sed -e 's/Attend$/Attending/' | sed -e 's/Design$/Designing/' | sed -e 's/Report$/Writing/' > tmp-http-only-subtask.csv
+
+# Recombine with URLs
+paste -d',' tmp-http-only-url.csv tmp-http-only-assignment.csv | sort | uniq > tmp-http-url-assignment.csv
+paste -d',' tmp-http-only-url.csv tmp-http-only-subtask.csv | sort | uniq > tmp-http-url-subtask.csv
+
+# Create final dictionaries
+cat tmp-http-url-assignment.csv | sed -e 's/\//_/g' | sed -e 's/\,/\.txt,/' | sed -e 's/http:__//' | sed -e 's/https:__//' | egrep -f urls-in-corpus.csv > tmp-http-url-assignment-dict.csv
+cat tmp-http-url-subtask.csv | sed -e 's/\//_/g' | sed -e 's/\,/\.txt,/' | sed -e 's/http:__//' | sed -e 's/https:__//' | egrep -f urls-in-corpus.csv > tmp-http-url-subtask-dict.csv
+
