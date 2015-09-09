@@ -16,8 +16,8 @@ library(tm)
 #corp <- VCorpus(DirSource(directory="/Users/pjones/Google Drive/LAS Monthly Reports Efforts for DO5/CSC791_Corpus_Pdf",
 #                   mode="binary", recursive="TRUE"), readerControl=list(reader=readPDF))
                    
-corp <- VCorpus(DirSource(directory="corpus-diffbot-text-1000", mode="text", recursive="TRUE"), 
-                readerControl=list(reader=readPlain))
+#corp <- VCorpus(DirSource(directory="corpus-diffbot-text-1000", mode="text", recursive="TRUE"), 
+#                readerControl=list(reader=readPlain))
 
 #class(corp)
 #mode(corp)
@@ -26,6 +26,13 @@ corp <- VCorpus(DirSource(directory="corpus-diffbot-text-1000", mode="text", rec
 
 #setwd("/Users/pjones/Google Drive/LAS Monthly Reports Efforts for DO5/CSC791_Corpus_RawTxt")
 #writeCorpus(corp)
+
+# Create a corpus file and save it to source file location
+#setwd("~/Documents/RProjects/journaling-csc791-url-embeddings")
+#save(corp,file="corpus-diffbot-text-1000.RData")
+
+# Load corpus from file
+load(file="../data/corpus-diffbot-text-1000.RData")
 
 #-----------------------------------
 # Text Preprocessing
