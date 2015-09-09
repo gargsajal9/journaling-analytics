@@ -35,7 +35,7 @@ source("k-clique-comm-detection-functions.R")
 #save(corp,file="CSC791_Corpus_Pdf.RData")
 
 # Load corpus from file
-load(file="CSC791_Corpus_Pdf.RData")
+load(file="../data/CSC791_Corpus_Pdf.RData")
 
 #-----------------------------------
 # Text Preprocessing
