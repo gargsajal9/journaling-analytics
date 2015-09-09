@@ -1,5 +1,5 @@
 # Script to process CSC791 Journaling corpus for Shiny
-# PJ 16/8/2015 (built from orginal example by NFS)
+# PJ 9/9/2015 (built from orginal example by NFS)
 
 #install.packages("tm")
 library(tm)
@@ -20,7 +20,7 @@ source("k-clique-comm-detection-functions.R")
 #corp <- VCorpus(DirSource(directory="/Users/pjones/Google Drive/LAS Monthly Reports Efforts for DO5/CSC791_Corpus_Pdf",
 #                   mode="binary", recursive="TRUE"), readerControl=list(reader=readPDF))
                    
-corp <- VCorpus(DirSource(directory="CSC791_Corpus_Pdf", mode="binary", recursive="TRUE"), readerControl=list(reader=readPDF))
+#corp <- VCorpus(DirSource(directory="CSC791_Corpus_Pdf", mode="binary", recursive="TRUE"), readerControl=list(reader=readPDF))
 
 #class(corp)
 #mode(corp)
@@ -29,6 +29,13 @@ corp <- VCorpus(DirSource(directory="CSC791_Corpus_Pdf", mode="binary", recursiv
 
 #setwd("/Users/pjones/Google Drive/LAS Monthly Reports Efforts for DO5/CSC791_Corpus_RawTxt")
 #writeCorpus(corp)
+
+# Create a corpus file and save it to source file location
+#setwd("~/Documents/RProjects/journaling-csc791-doc-graphs-communities")
+#save(corp,file="CSC791_Corpus_Pdf.RData")
+
+# Load corpus from file
+load(file="CSC791_Corpus_Pdf.RData")
 
 #-----------------------------------
 # Text Preprocessing
