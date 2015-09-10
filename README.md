@@ -1,4 +1,4 @@
-# journaling-analytics
+## journaling-analytics
 Scripts and source code to analyze Journaling data
 PJ 9/6/15
 
