@@ -1,8 +1,3 @@
-'''
-Created on Jun 5, 2015
-
-@author: Changsung Moon (csmoon2@ncsu.edu)
-'''
 from io import StringIO
 
 import logging
