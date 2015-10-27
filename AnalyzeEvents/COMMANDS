@@ -11,6 +11,10 @@ cat tmp-chrome-all | jq '.data[].data.UserId' -c > tmp-chrome-UserId.txt
 cat tmp-chrome-all | jq '.data[].data.TaskName' -c > tmp-chrome-TaskName.txt
 cat tmp-chrome-all | jq '.data[].data.WebURL' -c > tmp-chrome-WebURL.txt
 
+# For future - when goal options are available in production
+#cat tmp-chrome-all | jq '.data[].data.Trigger' -c | sort | uniq
+#cat tmp-chrome-all | jq '.data[].data.GoalPicked' -c | sort | uniq
+
 # Rejoin in a single csv file and sort by time
 # Can also paste using a tab character here!
 paste -d, tmp-chrome-EvtTime.txt tmp-chrome-UserId.txt tmp-chrome-TaskName.txt tmp-chrome-WebURL.txt | sed -e 's/\"//g' > tmp-chrome-all-joined.csv
