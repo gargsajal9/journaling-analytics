@@ -1,8 +1,8 @@
 # Bash commands used to generate event corpus
 # PJ - July 2015
 
-# Download all events from skylr
-curl -H "Content-Type: application/json" -H "AuthToken: 79e0eb5ad4c0a4ceff6889dc6e8fd3ec188219db7a8a7e63d04a0730c2f9f0c9" -d '{"type":"find","query":{"data.ProjId":"journaling-chrome"}}' https://las-skylr-token.oscar.ncsu.edu/api/data/document/query > tmp-chrome-all
+# Download all events from skylr (for PS598)
+curl -H "Content-Type: application/json" -H "AuthToken: 79e0eb5ad4c0a4ceff6889dc6e8fd3ec188219db7a8a7e63d04a0730c2f9f0c9" -d '{"type":"find","query":{"data.ProjId":"journaling-chrome"}}' https://las-skylr-dev-token.oscar.ncsu.edu/api/data/document/query > tmp-chrome-all
 curl -H "Content-Type: application/json" -H "AuthToken: 79e0eb5ad4c0a4ceff6889dc6e8fd3ec188219db7a8a7e63d04a0730c2f9f0c9" -d '{"type":"find","query":{"data.ProjId":"journaling-ubuntu"}}' https://las-skylr-token.oscar.ncsu.edu/api/data/document/query > tmp-ubuntu-all
 
 # For simple formatted output (one record per line) and filtered for PS598 users
