@@ -1,15 +1,29 @@
 # Bash commands used to generate event corpus
 # PJ - July 2015
 
-# Download all events from skylr
-curl -H "Content-Type: application/json" -H "AuthToken: 79e0eb5ad4c0a4ceff6889dc6e8fd3ec188219db7a8a7e63d04a0730c2f9f0c9" -d '{"type":"find","query":{"data.ProjId":"journaling-chrome"}}' https://las-skylr-token.oscar.ncsu.edu/api/data/document/query > tmp-chrome-all
+# Download all events from skylr (for PS598)
+curl -H "Content-Type: application/json" -H "AuthToken: 79e0eb5ad4c0a4ceff6889dc6e8fd3ec188219db7a8a7e63d04a0730c2f9f0c9" -d '{"type":"find","query":{"data.ProjId":"journaling-chrome"}}' https://las-skylr-dev-token.oscar.ncsu.edu/api/data/document/query > tmp-chrome-all
 curl -H "Content-Type: application/json" -H "AuthToken: 79e0eb5ad4c0a4ceff6889dc6e8fd3ec188219db7a8a7e63d04a0730c2f9f0c9" -d '{"type":"find","query":{"data.ProjId":"journaling-ubuntu"}}' https://las-skylr-token.oscar.ncsu.edu/api/data/document/query > tmp-ubuntu-all
+
+# For simple formatted output (one record per line) and filtered for PS598 users
+cat tmp-chrome-all | jq -c . | sed -e 's/},{/}\n{/g'  | egrep -f ps598-users/USERS
+
+# Summary of PS598 domains
+less tmp-chrome-all | jq -c . | sed -e 's/},{/}\n{/g' | egrep -f ps598-users/USERS | jq '.data.WebURL' | cut -d'/' -f3 | sed -e 's/www.//' | sed -e 's/\"//g' | sort | uniq -c | sort -nr |  less
+
+# Summary of prompting options
+ less tmp-chrome-all | jq -c . | sed -e 's/},{/}\n{/g' | egrep -f ps598-users/USERS | jq '.data.TriggerOptions.page_time.time_on_page' | sort | uniq -c | sort -nr | less
+less tmp-chrome-all | jq -c . | sed -e 's/},{/}\n{/g' | egrep -f ps598-users/USERS | jq '.data.TriggerOptions.page_scroll.page_percentage' | sort | uniq -c | sort -nr | less
 
 # Extract JSON fields we care about using jq
 cat tmp-chrome-all | jq '.data[].data.EvtTime' -c > tmp-chrome-EvtTime.txt
 cat tmp-chrome-all | jq '.data[].data.UserId' -c > tmp-chrome-UserId.txt
 cat tmp-chrome-all | jq '.data[].data.TaskName' -c > tmp-chrome-TaskName.txt
 cat tmp-chrome-all | jq '.data[].data.WebURL' -c > tmp-chrome-WebURL.txt
+
+# For future - when goal options are available in production
+#cat tmp-chrome-all | jq '.data[].data.Trigger' -c | sort | uniq
+#cat tmp-chrome-all | jq '.data[].data.GoalPicked' -c | sort | uniq
 
 # Rejoin in a single csv file and sort by time
 # Can also paste using a tab character here!
