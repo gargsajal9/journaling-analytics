@@ -37,8 +37,9 @@ with open('urls.txt','r') as urls:
                         #filename="corpus-test-diffbot/"+domain+newpath+".txt"
                         filename="corpus-diffbot/"+domain+newpath+".txt"
                         file = open(filename, "w")
-    			json_result = dumps(diffbot.article(url, token='f3472e9233ba4070833dfffb0fb97660'))
-    			file.write(json_result)
+    			#json_result = dumps(diffbot.article(url, token='f3472e9233ba4070833dfffb0fb97660'))
+    			json_result = dumps(diffbot.article(url, token='bcc855fd71b859791b2202d8297da1e3')) # new LAS token 11/2015
+			file.write(json_result)
     			outfile.close()
 		except:
                         print "**** ERROR processing URL with diffbot: ", url, sys.exc_info()[0]
