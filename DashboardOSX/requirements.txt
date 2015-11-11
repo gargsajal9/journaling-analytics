@@ -1,0 +1,5 @@
+flask
+pyjade
+requests
+subprocess32
+nltk
