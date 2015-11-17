@@ -52,25 +52,32 @@ library(lsa)
 # Create a TermDocumentMatrix using term frequency (tf) or tf-idf
 #tdm_tf <- TermDocumentMatrix(corp)
 tdm_tfidf <-t(DocumentTermMatrix(corp,control = list(weighting = function(x) weightTfIdf(x, normalize = TRUE))))
-
 # Calculate distance between documents
+doc_term_dist_cosine_tfidf <- cosine(as.matrix(tdm_tfidf))
+
+# Load a similarity matrix from Doc2Vec ArXiv
 doc2vec_df <- read.csv("csc791-doc2vec-similarity-matrix.csv",header = FALSE, sep = ",")
 doc_doc_dist_cosine_doc2vec <- as.matrix(doc2vec_df)
+
+# Load a similarity matrix from Wiki2Vec
 
 
 # Document labels
 doc_names = doc_doc_dist_cosine_doc2vec[,0] # Euclid names not available but are the same
+doc_names_tfidf = doc_term_dist_cosine_tfidf[,0] # Euclid names not available but are the same
 
-assignments <- c('H5','H5','H5','A3','H2','H2','H2','H4','E1','GE','GE', 'GE',
-                 'A2', 'A2', 'H6', 'H6', 'H6', 'L1', 'LE', 'LE', 'LE', 'LE', 
-                 'LE', 'LE', 'LE', 'LE', 'LE', 'LE', 'LE', 'LE', 'LE', 'LE', 
-                 'LE', 'LE', 'LE', 'LE', 'LE', 'LE', 'LE', 'LE', 'LE', 'LE', 
-                 'LE', 'T3', 'T3', 'P3', 'P3', 'J1', 'J1', 'J1', 'J1', 'H1', 
-                 'H1', 'H1', 'H1', 'H1', 'A6', 'A6', 'A6', 'A6', 'A6', 'A6', 
-                 'A6', 'A6', 'A6', 'A6', 'A6', 'T1', 'P5', 'P5', 'P5', 'P5', 
-                 'P5', 'P5', 'P5', 'P5', 'P5', 'P5', 'P5', 'P5', 'P5', 'P5', 
-                 'P5', 'P5', 'P5', 'P5', 'P5', 'P5', 'P5', 'P5', 'P5', 'P5', 
-                 'P5', 'P5', 'T2', 'T2')
+assignments_doc2vec <- c('H5','H5','H5','A3','H2','H2','H2','H4','E1','GE','GE', 'GE', 'A2', 'A2', 'H6', 'H6', 'H6', 'L1', 'LE', 'LE', 'LE', 'LE', 
+                 'LE', 'LE', 'LE', 'LE', 'LE', 'LE', 'LE', 'LE', 'LE', 'LE', 'LE', 'LE', 'LE', 'LE', 'LE', 'LE', 'LE', 'LE', 'LE', 'LE', 
+                 'LE', 'T3', 'T3', 'P3', 'P3', 'J1', 'J1', 'J1', 'J1', 'H1', 'H1', 'H1', 'H1', 'H1', 'A6', 'A6', 'A6', 'A6', 'A6', 'A6', 
+                 'A6', 'A6', 'A6', 'A6', 'A6', 'T1', 'P5', 'P5', 'P5', 'P5', 'P5', 'P5', 'P5', 'P5', 'P5', 'P5', 'P5', 'P5', 'P5', 'P5', 
+                 'P5', 'P5', 'P5', 'P5', 'P5', 'P5', 'P5', 'P5', 'P5', 'P5', 'P5', 'P5', 'T2', 'T2')
+
+assignments_tfidf <- c("A2","A2","A3","A6","A6","A6","A6","A6","A6","A6","A6","A6","A6","A6","E1","CL","CL","CL","H1","H1",
+                 "H1","H1","H1","H2","H2","H2","H4","H5","H5","H5","H6","H6","H6","J1","J1","J1","J1","J1","L1","LE",
+                 "LE","LE","LE","LE","LE","LE","LE","LE","LE","LE","LE","LE","LE","LE","LE","LE","LE","LE","LE","LE",
+                 "LE","LE","LE","P3","P3","P5","P5","P5","P5","P5","P5","P5","P5","P5","P5","P5","P5","P5","P5","P5",
+                 "P5","P5","P5","P5","P5","P5","P5","P5","P5","P5","P5","T1","T2","T2","T3","T3")
+
 # TO DO - go back and label LE documents with the assignments that they correspond to. This should improve performance.
 
 # Colour by assignment number - now happens dynamically
@@ -79,8 +86,7 @@ assignments <- c('H5','H5','H5','A3','H2','H2','H2','H4','E1','GE','GE', 'GE',
 #col.rainbow[13]="#000000ff" # LE notes
 #palette(col.rainbow)
 
-# Only using Cosine TF-IDF in this app
-doc_term_dist <- doc_doc_dist_cosine_doc2vec
+
 
 # Server code - gets run whenever a user loads the app or clicks a widget (so minimal computation)
 shinyServer(
@@ -91,6 +97,18 @@ shinyServer(
     #----------------------------------
     
     output$proxgraph <- renderPlot({
+      
+      if(input$gealgorithm == "Doc2Vec ArXiv"){
+        doc_term_dist <- doc_doc_dist_cosine_doc2vec
+        assignments <- assignments_doc2vec
+      }else if(input$gealgorithm == "Doc2Vec Wiki"){
+        doc_term_dist <- doc_doc_dist_cosine_doc2vec
+        assignments <- assignments_doc2vec
+      }else{
+        # using Cosine TF-IDF in this app
+        doc_term_dist <- doc_term_dist_cosine_tfidf
+        assignments <- assignments_tfidf
+      }
       
       threshold <- input$threshold
       doc_sim_graph <- doc_term_dist
