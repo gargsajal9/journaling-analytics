@@ -1,0 +1,62 @@
+doctype html
+html
+  head
+    title Dashboard - LAS Journaling
+    link(href='/css/bootstrap.min.css',rel='stylesheet')
+    link(href='/css/dashboard.css',rel='stylesheet')
+  body
+    .container
+      header
+        .row#headerrow
+          .col-md-2
+            img(src='ncstate-brick-4x1-red.png',width="140px")
+            img(src='/las3.png',width="70px")
+          .col-md-7
+            h2 
+              b MacBook recent-work dashboard for: 
+            p
+              b Version 1.0
+          .col-md-3
+           p 
+            a(href='https://las-skylr.oscar.ncsu.edu/#/query' target="_blank") Query for Events on Oscar
+           p 
+            a(href='https://las-skylr.oscar.ncsu.edu/chrome/skylr-chrome.crx' target="_blank") Download Chrome Extension
+           p
+            a(href='https://www.yammer.com/ncsu.edu/#/threads/inGroup?type=in_group&feedId=5348504' target="_blank") Instructions and Feedback (Yammer Coywolf Group)
+        
+      .content
+      .footer
+        a#dummyLink
+
+  .modal.fade#myModal(tabindex='-1',role='dialog',aria-labelledby='myModalLabel',aria-hidden="true")
+    .modal-dialog
+      .modal-content
+        .modal-header
+          button(type='button',class='close',data-dismiss='modal', aria-label='Close')
+            .span(aria-hidden='true') &times;
+          h4.modal-title#myModalLabel Enter the task name
+        .modal-body
+          .form-group
+            label(for='tagNameInput') Task Name
+            input.form-control(type='text',id='tagNameInput',placeholder='Enter tag name')
+        .modal-footer
+          button.btn.btn-default(type='button',data-dismiss='modal') Close
+          button.btn.btn-primary#myModalClose(type='button') Save
+
+
+  // Alert Modal
+  #alertModal.modal.fade
+    .modal-dialog
+      .modal-content
+        // dialog body
+        .modal-body
+          button.close(type='button', data-dismiss='modal') &times;    
+          p#alertModalContent Hello world!
+        .modal-footer
+          button.btn.btn-primary(type='button', data-dismiss='modal') OK
+
+  script(src='/js/jquery-2.1.3.min.js',language='javascript')  
+  script(src='/js/bootstrap.min.js',language='javascript')  
+  script(src='/js/dashboard.js',language='javascript')
+  script(src='/js/moment.min.js',language='javascript')
+  script(src='/js/bootstrap3-typeahead.min.js',language='javascript')

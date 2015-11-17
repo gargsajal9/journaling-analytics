@@ -1,0 +1,30 @@
+body {
+	background-color: #ececec
+}
+ul {
+	background-color: white;
+}
+
+.content > ul.list-group:first-of-type > li {
+	background-color: #ffffaa;
+}
+
+#headerrow
+{
+	background-color: white;
+	margin-top: 20px;
+}
+
+#headerrow .col-md-3 {
+	text-align: right;
+}
+
+#headerrow .col-md-2 {
+        padding-top: 5px;
+        text-align: left;
+        padding-bottom: 5px;
+}
+
+#headerrow .col-md-2 img {
+        padding-top: 5px;
+}
