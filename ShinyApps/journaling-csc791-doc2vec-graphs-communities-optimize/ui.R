@@ -10,7 +10,7 @@ shinyUI(fluidPage(
       p("2. Load a matrix representing cosine similarity between pairs of docs, and choose a threshold to create 96x96 adjacency matrix"),
       selectInput("vector_representation", 
                   label = "Choose a document vector representation:",
-                  choices = c("Bag-of-words (weighted by TF-IDF)","Averaged Word Vectors","Doc2Vec (trained on ArXiv)","Doc2Vec (trained on Wikipedia)"),
+                  choices = c("Bag-of-words (weighted by TF-IDF)","Averaged Word Vectors (trained on ArXiv)","Doc2Vec (trained on ArXiv)","Doc2Vec (trained on Wikipedia)"),
                   selected = "Doc2Vec (trained on ArXiv"),
       
       sliderInput("threshold","Choose proximity threshold for creating an edge:",
