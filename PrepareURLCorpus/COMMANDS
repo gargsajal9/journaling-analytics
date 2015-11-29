@@ -15,6 +15,6 @@ paste -d',' tmp-http-only-url.csv tmp-http-only-subtask.csv | sort | uniq > tmp-
 paste -d',' tmp-http-only-url.csv tmp-http-only-group.csv | sort | uniq > tmp-http-url-group.csv
 
 # Create final dictionaries
-cat tmp-http-url-assignment.csv | sed -e 's/\//_/g' | sed -e 's/\,/\.txt,/' | sed -e 's/http:__//' | sed -e 's/https:__//' | egrep -f urls-in-corpus.csv > tmp-http-url-assignment-dict.csv
-cat tmp-http-url-subtask.csv | sed -e 's/\//_/g' | sed -e 's/\,/\.txt,/' | sed -e 's/http:__//' | sed -e 's/https:__//' | egrep -f urls-in-corpus.csv > tmp-http-url-subtask-dict.csv
+cat tmp-http-url-assignment.csv | sed -e 's/\//_/g' | sed -e 's/\,/\.txt,/' | sed -e 's/http:__//' | sed -e 's/https:__//' | egrep -f ../PrepareURLCorpus/urls-in-corpus.csv > tmp-http-url-assignment-dict.csv
+cat tmp-http-url-subtask.csv | sed -e 's/\//_/g' | sed -e 's/\,/\.txt,/' | sed -e 's/http:__//' | sed -e 's/https:__//' | egrep -f ../PrepareURLCorpus/urls-in-corpus.csv > tmp-http-url-subtask-dict.csv
 cat tmp-http-url-group.csv | sed -e 's/\//_/g' | sed -e 's/\,/\.txt,/' | sed -e 's/http:__//' | sed -e 's/https:__//' | egrep -f ../PrepareURLCorpus/urls-in-corpus.csv > tmp-http-url-group-dict.csv
