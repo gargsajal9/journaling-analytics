@@ -100,24 +100,26 @@ subtasks<-NULL
 
 # A bug in this section was causing incorrect labelling of URLs - now check what happens if
 # grep matches no URLs in the dictionary or more than one.
+# TO DO: Verify that this handle more than one match properly, using [index,2][1] modifier
+# OTHERWISE ENSURE NO DUPLICATE URLs IN DICTIONARIES!
 for (url in url_names) 
 {
   # Add group labels to each URL
   index <- grep(url,grp[,1],ignore.case=F)
   if(length(index)==0) { group <- "NONE" } else 
-   {group <- as.character(grp[index,2])}
+   {group <- as.character(grp[index,2][1])}
   groups <- c(groups,paste(group))
   
   # Add assignment labels to each URL
   index <- grep(url,ass[,1],ignore.case=F)
   if(length(index)==0) { assignment <- "NONE" } else 
-  {assignment <- as.character(ass[index,2])}
+  {assignment <- as.character(ass[index,2][1])}
   assignments <- c(assignments,paste(assignment))
   
   # Add subtask labels to each URL
   index <- grep(url,sub[,1],ignore.case=F)
   if(length(index)==0) { subtask <- "NONE" } else 
-  {subtask <- as.character(sub[index,2])}
+  {subtask <- as.character(sub[index,2][1])}
   subtasks <- c(subtasks,paste(subtask))
 }
 
