@@ -60,7 +60,12 @@ doc2vec_df <- read.csv("csc791-doc2vec-similarity-matrix.csv",header = FALSE, se
 doc_doc_dist_cosine_doc2vec <- as.matrix(doc2vec_df)
 
 # Load a similarity matrix from Wiki2Vec
+wiki2vec_df <- read.csv("csc791-wiki2vec-similarity-matrix.csv",header = FALSE, sep = ",")
+doc_doc_dist_cosine_wiki2vec <- as.matrix(wiki2vec_df)
 
+# Load a similarity matrix from Avg Word2vec ArXiv
+doc2vec_avg_df <- read.csv("csc791-avg-doc2vec-similarity-matrix.csv",header = FALSE, sep = ",")
+doc_avg_dist_cosine_doc2vec <- as.matrix(doc2vec_avg_df)
 
 # Document labels
 doc_names = doc_doc_dist_cosine_doc2vec[,0] # Euclid names not available but are the same
@@ -77,6 +82,22 @@ assignments_tfidf <- c("A2","A2","A3","A6","A6","A6","A6","A6","A6","A6","A6","A
                  "LE","LE","LE","LE","LE","LE","LE","LE","LE","LE","LE","LE","LE","LE","LE","LE","LE","LE","LE","LE",
                  "LE","LE","LE","P3","P3","P5","P5","P5","P5","P5","P5","P5","P5","P5","P5","P5","P5","P5","P5","P5",
                  "P5","P5","P5","P5","P5","P5","P5","P5","P5","P5","P5","T1","T2","T2","T3","T3")
+
+assignments_doc2vec_avg <- c('H5', 'H5', 'A3', 'H2', 'H2', 'H2', 'E1', 'GE', 'GE', 'GE', 'A2', 'A2', 'H6', 'H6', 'H6', 
+                             'L1', 'LE', 'LE', 'LE', 'LE', 'LE', 'LE', 'LE', 'LE', 'LE', 'LE', 'LE', 'LE', 'LE', 'LE', 
+                             'LE', 'LE', 'LE', 'LE', 'LE', 'LE', 'LE', 'LE', 'LE', 'LE', 'LE', 'T3', 'T3', 'P3', 'P3', 
+                             'J1', 'J1', 'J1', 'J1', 'H1', 'H1', 'H1', 'H1', 'H1', 'A6', 'A6', 'A6', 'A6', 'A6', 'A6', 
+                             'A6', 'A6', 'A6', 'A6', 'A6', 'T1', 'P5', 'P5', 'P5', 'P5', 'P5', 'P5', 'P5', 'P5', 'P5', 
+                             'P5', 'P5', 'P5', 'P5', 'P5', 'P5', 'P5', 'P5', 'P5', 'P5', 'P5', 'P5', 'P5', 'P5', 'P5', 
+                             'P5', 'T2')
+
+assignments_wiki2vec <- c('P5', 'A2', 'A2', 'P5', 'P5', 'P5', 'P5', 'P5', 'P5', 'P5', 'A6', 'A6', 'A6', 'A6', 
+                          'A6', 'A6', 'A6', 'A6', 'A6', 'J1', 'J1', 'J1', 'J1', 'P3', 'H2', 'H2', 'H2', 'P5', 
+                          'L1', 'GE', 'GE', 'GE', 'H1', 'E1', 'H1', 'H1', 'H1', 'T3', 'T3', 'A6', 'A6', 'H1', 
+                          'T1', 'H5', 'H5', 'H5', 'P5', 'P5', 'P5', 'P5', 'P5', 'P5', 'P5', 'P5', 'P5', 
+                          'P5', 'H6', 'T2', 'T2', 'LE', 'LE', 'LE', 'LE', 'LE', 'LE', 'LE', 'LE', 'LE', 'LE', 
+                          'LE', 'LE', 'LE', 'LE', 'LE', 'A3', 'H4', 'H6', 'P3', 'H6', 'LE', 'LE', 'LE', 
+                          'LE', 'LE', 'LE', 'LE', 'LE', 'LE', 'LE', 'P5', 'P5', 'P5', 'P5', 'P5', 'P5', 'P5')
 
 # TO DO - go back and label LE documents with the assignments that they correspond to. This should improve performance.
 
@@ -98,12 +119,15 @@ shinyServer(
     
     output$proxgraph <- renderPlot({
       
-      if(input$gealgorithm == "Doc2Vec ArXiv"){
+      if(input$vector_representation == "Doc2Vec (trained on ArXiv)"){
         doc_term_dist <- doc_doc_dist_cosine_doc2vec
         assignments <- assignments_doc2vec
-      }else if(input$gealgorithm == "Doc2Vec Wiki"){
-        doc_term_dist <- doc_doc_dist_cosine_doc2vec
-        assignments <- assignments_doc2vec
+      }else if(input$vector_representation == "Doc2Vec (trained on Wikipedia)"){
+        doc_term_dist <- doc_doc_dist_cosine_wiki2vec
+        assignments <- assignments_wiki2vec
+      }else if(input$vector_representation == "Averaged Word Vectors (trained on ArXiv)"){
+        doc_term_dist <- doc_avg_dist_cosine_doc2vec
+        assignments <- assignments_doc2vec_avg
       }else{
         # using Cosine TF-IDF in this app
         doc_term_dist <- doc_term_dist_cosine_tfidf

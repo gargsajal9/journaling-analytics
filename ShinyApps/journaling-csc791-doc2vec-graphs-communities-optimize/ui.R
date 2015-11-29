@@ -11,7 +11,7 @@ shinyUI(fluidPage(
       selectInput("vector_representation", 
                   label = "Choose a document vector representation:",
                   choices = c("Bag-of-words (weighted by TF-IDF)","Averaged Word Vectors (trained on ArXiv)","Doc2Vec (trained on ArXiv)","Doc2Vec (trained on Wikipedia)"),
-                  selected = "Doc2Vec (trained on ArXiv"),
+                  selected = "Doc2Vec (trained on ArXiv)"),
       
       sliderInput("threshold","Choose proximity threshold for creating an edge:",
                                min=0,max=1,value=0.48),
