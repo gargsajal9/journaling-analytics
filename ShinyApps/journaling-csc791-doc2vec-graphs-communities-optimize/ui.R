@@ -43,7 +43,7 @@ shinyUI(fluidPage(
       a("Modularity in Networks", href="http://www.pnas.org/content/103/23/8577.full"),
       br(),
       br(),
-      p("(c) PJ/NG 2015-11-17")
+      p("(c) PJ/NG 2015-11-29")
     ),
     
     mainPanel(plotOutput("proxgraph"))
