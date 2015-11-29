@@ -8,10 +8,10 @@ shinyUI(fluidPage(
       
       p("1. Extract ASCII text from PDFs (no Unicode), and transform: lower case, remove whitespace, punctuation, numbers, stop-words & stem"),
       p("2. Load a matrix representing cosine similarity between pairs of docs, and choose a threshold to create 96x96 adjacency matrix"),
-      selectInput("gealgorithm", 
-                  label = "Choose a graph embedding algorithm:",
-                  choices = c("Doc2Vec ArXiv","Doc2Vec Wiki","TF-IDF"),
-                  selected = "Doc2Vec ArXiv"),
+      selectInput("vector_representation", 
+                  label = "Choose a document vector representation:",
+                  choices = c("Bag-of-words (weighted by TF-IDF)","Averaged Word Vectors (trained on ArXiv)","Doc2Vec (trained on ArXiv)","Doc2Vec (trained on Wikipedia)"),
+                  selected = "Doc2Vec (trained on ArXiv)"),
       
       sliderInput("threshold","Choose proximity threshold for creating an edge:",
                                min=0,max=1,value=0.48),
@@ -43,7 +43,7 @@ shinyUI(fluidPage(
       a("Modularity in Networks", href="http://www.pnas.org/content/103/23/8577.full"),
       br(),
       br(),
-      p("(c) PJ 2015-08-30")
+      p("(c) PJ/NG 2015-11-29")
     ),
     
     mainPanel(plotOutput("proxgraph"))
