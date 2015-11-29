@@ -3,13 +3,13 @@ shinyUI(fluidPage(
   
   sidebarLayout(
     sidebarPanel(
-      helpText("Similarity visualizations for 121 web pages (marked relevant, and with at least 1kB of text content) associated with the PS598 international security class group project in Fall 2015. Processing steps:"),
+      helpText("Similarity visualizations for 270 web pages (marked relevant, and with at least 1kB of text content) associated with the PS598 international security class group project in Fall 2015. Processing steps:"),
       
       p("1. Extract ASCII text from URLs using DiffBot, and filter for >1k of text content"),
       p("2. Transform lower case, remove stop-words, whitespace, punctuation & numbers, then stem"),
       p("3. Create a term-doc matrix using TF/IDF weights"),
       p("4. Calculate Cosine similarity between all pairs"),
-      p("5. Run 2-D t-SNE embedding algorithm on 121x121 matrix"),
+      p("5. Run 2-D t-SNE embedding algorithm on 270x270 matrix"),
       p("6. Plot results with coloured points and labelled in various ways"),
       
       radioButtons("colors", label = "Choose color scheme for points:",
@@ -24,7 +24,7 @@ shinyUI(fluidPage(
       a("t-SNE algorithm", href="http://lvdmaaten.github.io/tsne/", target="_blank"),
       br(),
       br(),
-      p("(c) PJ 2015-11-16")
+      p("(c) PJ 2015-11-29")
     ),
     
     mainPanel(plotOutput("tsne"))

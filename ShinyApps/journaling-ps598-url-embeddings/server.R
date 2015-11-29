@@ -1,5 +1,5 @@
 # Script to process PS598 Journaling URL corpus for Shiny
-# PJ 16/11/2015 (built from orginal example by NFS)
+# PJ 29/11/2015 (built from orginal example by NFS)
 
 #install.packages("tm")
 library(tm)
@@ -87,7 +87,7 @@ domains <- rapply(strsplit(url_names,"_"), function(x) head(x, 1))
 grp = read.csv("tmp-http-url-group-dict.csv")
 
 # Load in assignment dictionary
-ass = read.csv("tmp-http-url-assignment-dict.csv")
+ass = read.csv("tmp-http-url-stage-dict.csv")
 
 # Load in sub-task dictionary
 sub = read.csv("tmp-http-url-subtask-dict.csv")
