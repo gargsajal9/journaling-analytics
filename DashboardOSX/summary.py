@@ -9,7 +9,7 @@ import os
 
 tt=TextTeaser()
 
-TIKA_FILENAME='tika-app-1.10.jar'
+TIKA_FILENAME='tika-app-1.11.jar'
 
 def getSummary(filename,count):
 	response={}
@@ -45,7 +45,8 @@ def downloadTika():
 		return
 	else:
 		print "Downloading Apache Tika......."
-		subprocess32.call(['wget','http://apache.claz.org/tika/tika-app-1.10.jar'])
+		tikaURL = 'http://apache.claz.org/tika/'+TIKA_FILENAME
+		subprocess32.call(['wget',tikaURL])
 		if not os.path.isfile(TIKA_FILENAME):
 			print "Failed to download Tika. Exiting"
 			exit()
