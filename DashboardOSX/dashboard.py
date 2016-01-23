@@ -116,7 +116,9 @@ def updateState(event):
     for task in tasks:
         if task not in state:
             state[task]=OrderedDict()
-        state[task][fileName]=({'AppName':app, 'EvtTime':event['EvtTime'], 'type':eventType})
+            state[task]['data']=OrderedDict()
+        state[task]['data'][fileName]=({'AppName':app, 'EvtTime':event['EvtTime'], 'type':eventType})
+        getCollaborateUsersForTaskFromSkylr(task)
         SortSingleTask(task)
     SortAllTasks()
 
@@ -146,13 +148,14 @@ def readActions():
                 if action[2]==1:
                     if action[0] not in state:
                         state[action[0]]=OrderedDict()
-                    state[action[0]][action[1]]=({'AppName':None, 'EvtTime':action[4], 'type':eventType})
+                        state[action[0]]['data']=OrderedDict()
+                    state[action[0]]['data'][action[1]]=({'AppName':None, 'EvtTime':action[4], 'type':eventType})
                     logging.info("Updated action for "+action[1])
                     SortSingleTask(action[0])
                 else:
                     if action[0] in state:
-                        if action[1] in state[action[0]]:
-                            del state[action[0]][action[1]]
+                        if action[1] in state[action[0]]['data']:
+                            del state[action[0]]['data'][action[1]]
                     SortSingleTask(action[0])       
         SortAllTasks()
     else:
@@ -160,7 +163,7 @@ def readActions():
 
 
 def SortSingleTask(task):
-    state[task] = OrderedDict(sorted(state[task].iteritems(), key=lambda x: x[1]['EvtTime'],reverse=True))
+    state[task]['data'] = OrderedDict(sorted(state[task]['data'].iteritems(), key=lambda x: x[1]['EvtTime'],reverse=True))
 
 def SortAllTasks():
     global state
@@ -183,7 +186,7 @@ def StateSortComparator(task1,task2):
     #print task2
 
     try:
-        if next(task1[1].iteritems())[1]['EvtTime'] > next(task2[1].iteritems())[1]['EvtTime']:
+        if next(task1[1]['data'].iteritems())[1]['EvtTime'] > next(task2[1]['data'].iteritems())[1]['EvtTime']:
             return -1
         else:
             return 1
@@ -195,6 +198,7 @@ def printState():
     while True:
         time.sleep(5)
         for tag,files in state.items():
+            files = files['data']
             print "Task:",tag
             for fileName,details in files.items():
                 print fileName,details['AppName'],details['EvtTime']
@@ -224,44 +228,47 @@ def AddTag(filepath,tag):
     subprocess32.Popen('tag -a '+ tag +' "'+filepath+'"', shell=True)
     if tag not in state:
         state[tag]=OrderedDict()
-    state[tag][filepath] = getFileDetailsByName(filepath)
+        state[tag]['data']=OrderedDict()
+    state[tag]['data'][filepath] = getFileDetailsByName(filepath)
     if filepath in state[UNCATAGORISED_TAG]:
-    	del state[UNCATAGORISED_TAG][filepath]
+    	del state[UNCATAGORISED_TAG]['data'][filepath]
     SortSingleTask(tag)
     SortAllTasks()
     updateEventsToSkylr("AddTask",filepathWithColon,tag)
-    addToActions((tag,filepath,1,1,state[tag][filepath]['EvtTime']))
+    addToActions((tag,filepath,1,1,state[tag]['data'][filepath]['EvtTime']))
 
 def RemoveTag(filepath,tag):
     filepathWithColon=filepath
     filepath = filepath.replace(":","/")
     #subprocess32.Popen(['tag',"-r",tag,re.sub(" ","\ ",filepath)], shell=True)
     subprocess32.Popen('tag -r '+ tag +' "'+filepath+'"', shell=True)
-    EvtTime = state[tag][filepath]['EvtTime']
-    del state[tag][filepath]
+    EvtTime = state[tag]['data'][filepath]['EvtTime']
+    del state[tag]['data'][filepath]
     updateEventsToSkylr("RemoveTask",filepathWithColon,tag)
     addToActions((tag,filepath,0,1,EvtTime))
 
 def RemoveTagURL(url,tag):
-    EvtTime = state[tag][url]['EvtTime']
-    temp=state[tag][url]
-    del state[tag][url]
+    EvtTime = state[tag]['data'][url]['EvtTime']
+    temp=state[tag]['data'][url]
+    del state[tag]['data'][url]
     updateEventsToSkylr("RemoveTask",url,tag)
     addToActions((tag,url,0,0,EvtTime))
 
 def AddTagURL(url,tag):
     if tag not in state:
         state[tag] = OrderedDict()
-    state[tag][url]=getFileDetailsByName(url)
-    if url in state[UNCATAGORISED_TAG]:
-    	del state[UNCATAGORISED_TAG][url]
+        state[tag]['data'] = OrderedDict()
+    state[tag]['data'][url]=getFileDetailsByName(url)
+    if url in state[UNCATAGORISED_TAG]['data']:
+    	del state[UNCATAGORISED_TAG]['data'][url]
     SortSingleTask(tag)
     SortAllTasks()
     updateEventsToSkylr("AddTask",url,tag)
-    addToActions((tag,url,1,0,state[tag][url]['EvtTime']))
+    addToActions((tag,url,1,0,state[tag]['data'][url]['EvtTime']))
 
 def getFileDetailsByName(filename):
-    for task,filelist in state.iteritems():
+    for task,allTags in state.iteritems():
+        filelist = allTags['data']
         if filename in filelist:
             return filelist[filename]
     logging.warn(filename+" not found")
@@ -269,7 +276,8 @@ def getFileDetailsByName(filename):
 
 def getAllTagsByFile(filename):
     ret=[]
-    for task,filelist in state.iteritems():
+    for task,allTags in state.iteritems():
+        filelist = allTags['data']
         if filename in filelist:
             ret.append(task)
     try:
@@ -289,7 +297,7 @@ def getUnity():
 def openAll(tag):
     listOfURLs=[]
     if tag in state:
-        for item,desc in state[tag].iteritems():
+        for item,desc in state[tag]['data'].iteritems():
             if desc['type']=='file':
                 filepath=item
                 filepath = filepath.replace(":","/")
@@ -322,12 +330,37 @@ def getURLsFromSkylr():
             if event['WebURL'].startswith('http') and event['TaskName']!="":
                 updateStateURL(state,event['WebURL'],formatTask(event['TaskName']),event['EvtTime'])
 
+
+def getCollaborateUsersForTaskFromSkylr(task):
+    taskList = task.split("_")
+    headers = {'Content-Type':'application/json', 'AuthToken':AUTH_TOKEN}
+    data= {"type":"find","query":{'data.TaskName':taskList, 'data.ProjId':"journaling-ubuntu"}}
+    try:
+        r = requests.post(SKYLR_URL,data=json.dumps(data),headers=headers)
+        response = json.loads(r.text)
+        allUsers = []
+        for i in response['data']:
+            if i:
+                event = i['data']
+                if 'UserId' in event:
+                    allUsers.append(event['UserId'])
+
+        allUsers = set(allUsers)
+        if os.environ[UNITYID_ENV_VAR] in allUsers:
+            allUsers.remove(os.environ[UNITYID_ENV_VAR])
+
+        state[task]['collaborators'] = list(allUsers);
+    except:
+        logging.warn("HTTP connection ( for fetching URLs ) to Skylr failed for task "+taskName)
+        return
+
 def updateStateURL(state,url,task,time):
     if 'localhost:5000' in url:
         return
     if task not in state:
         state[task]=OrderedDict()
-    state[task][url]=({'AppName':"", 'EvtTime':time, 'type':'url'})
+        state[task]['data']=OrderedDict()
+    state[task]['data'][url]=({'AppName':"", 'EvtTime':time, 'type':'url'})
     SortSingleTask(task)
     SortAllTasks()
 

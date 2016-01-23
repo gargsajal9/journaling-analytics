@@ -28,3 +28,9 @@ ul {
 #headerrow .col-md-2 img {
         padding-top: 5px;
 }
+
+.UserImageWrap {
+	position: relative;
+	height: 30px;
+	width: 30px;
+}

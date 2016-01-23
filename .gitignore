@@ -55,3 +55,10 @@ docs/_build/
 
 # PyBuilder
 target/
+DashboardOSX/.DS_Store
+.DS_Store
+AnalyzeEvents/.DS_Store
+DashboardOSX/public/.DS_Store
+DashboardOSX/public/css/.DS_Store
+DashboardOSX/public/js/.DS_Store
+DashboardOSX/templates/.DS_Store

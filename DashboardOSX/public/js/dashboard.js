@@ -7,6 +7,9 @@ $(document).ready(function() {
 	return false;
 	}
 
+	$(function() {
+    	$( document ).tooltip();
+  	});
 
 	$.get('/getUnity', function(response) {
 		$('header h2').append(response);
@@ -69,19 +72,38 @@ function updateState() {
 		var tasks = Object.keys(data);
 		$.each(tasks, function(index,task){
 			var html='';
-			var files = Object.keys(data[task])
+			var files = Object.keys(data[task]['data'])
 			$.each(files,function(index,file){
-				html+=getFileEntryHTML(file,data[task][file].EvtTime,task,data[task][file].type)
+				html+=getFileEntryHTML(file,data[task]['data'][file].EvtTime,task,data[task]['data'][file].type)
 			});
 			var html='<ul class="list-group">'+html+'</ul>';
+			if(!data[task].hasOwnProperty('collaborators') || data[task]['collaborators'].length == 0) {
+				var tagHeader = '<div class="row"> \
+					<div class="col-md-12">      \
+					<h3>' + task + '&nbsp;<button data-tag='+task+' class=" btn btn-sm btn-primary action-clear-tag"> \
+						<span class="glyphicon glyphicon-trash"></span></button>	\
+						<button class="btn btn-sm btn-primary action-open-all" data-tag=' + task + '>Open All</button>	\
+					</h3></div> \
+				  </div>';
+			} else {
+				var tagHeader = '<div class="row"> \
+					<div class="col-md-12">      \
+					<h3>' + task + '&nbsp;<button data-tag='+task+' class=" btn btn-sm btn-primary action-clear-tag"> \
+						<span class="glyphicon glyphicon-trash"></span></button>	\
+						<button class="btn btn-sm btn-primary action-open-all" data-tag=' + task + '>Open All</button>';
 
-			var tagHeader = '<div class="row"> \
-				<div class="col-md-12">      \
-				<h3>' + task + '&nbsp;<button data-tag='+task+' class=" btn btn-sm btn-primary action-clear-tag"> \
-					<span class="glyphicon glyphicon-trash"></span></button>	\
-					<button class="btn btn-sm btn-primary action-open-all" data-tag=' + task + '>Open All</button>	\
-				</h3></div> \
-			  </div>';
+				$.each(data[task]['collaborators'], function(index, user){
+					tagHeader+= 
+						'<span class = "UserImageWrap" title = ' + user + '> \
+							<img src="user-icon.png" data-tag=' + user + ' style = "height:30px;width:30px"> \
+						</span>';
+				});
+
+				tagHeader = tagHeader + '</h3></div> \
+				  </div>';
+
+			}
+
 			$('.content').append(tagHeader);
 			$('.content').append(html);
 		});
