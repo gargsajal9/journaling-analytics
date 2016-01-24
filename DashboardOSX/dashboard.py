@@ -119,6 +119,7 @@ def updateState(event):
             state[task]['data']=OrderedDict()
         state[task]['data'][fileName]=({'AppName':app, 'EvtTime':event['EvtTime'], 'type':eventType})
         getCollaborateUsersForTaskFromSkylr(task)
+        state[UNCATAGORISED_TAG]['collaborators'] = []
         SortSingleTask(task)
     SortAllTasks()
 
@@ -349,9 +350,9 @@ def getCollaborateUsersForTaskFromSkylr(task):
         if os.environ[UNITYID_ENV_VAR] in allUsers:
             allUsers.remove(os.environ[UNITYID_ENV_VAR])
 
-        state[task]['collaborators'] = list(allUsers);
+        state[task]['collaborators'] = list(allUsers)
     except:
-        logging.warn("HTTP connection ( for fetching URLs ) to Skylr failed for task "+taskName)
+        logging.warn("HTTP connection ( for fetching URLs ) to Skylr failed for task "+task)
         return
 
 def updateStateURL(state,url,task,time):
